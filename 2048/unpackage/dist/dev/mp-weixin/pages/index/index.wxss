@@ -1,0 +1,60 @@
+.game-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  height: calc(100vh - 69px);
+}
+.game-content .content-header {
+  font-size: 20px;
+  padding: 20px 0;
+}
+.game-content .content-main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #bbada0;
+}
+.game-content .content-main .main-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.game-content .content-main .main-row .row-item {
+  transition: all 0.2s;
+  min-width: 50px;
+  min-height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  background-color: #cdc1b4;
+}
+.game-content .content-main .main-row .row-item-2 {
+  background-color: #eee1c9;
+}
+.game-content .content-main .main-row .row-item-4 {
+  background-color: #eee4da;
+}
+.game-content .content-main .main-row .row-item-8 {
+  background-color: #f3b27a;
+}
+.game-content .content-main .main-row .row-item-16 {
+  background-color: #f69664;
+}
+.game-content .content-main .main-row .row-item-32 {
+  background-color: #f69664;
+}
+.game-content .content-main .main-row .row-item-64 {
+  background-color: #f75f3b;
+}
+.game-content .content-main .main-row .row-item-more {
+  background-color: #edd073;
+}
+.game-content .content-footer {
+  padding: 20px;
+  font-size: 12px;
+}
