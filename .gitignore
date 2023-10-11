@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+/uni_modules
+
+# production
+/unpackage
+
+# env
+/src/constant/env/dev.ts
+/src/constant/env/prod.ts
+
+# docs
+/src/docs/_readme
